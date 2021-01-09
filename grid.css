@@ -1,0 +1,137 @@
+/*DEFINIÇÕES DO BODY*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+    
+}
+body{
+    background-color: #eceff2;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.content{
+    width: 1000px ;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    height: 600px;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.first-column h1{
+    color: #51a59c;
+}
+.content .first-column ul {
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0px;
+    justify-self: center;
+   font-size: 2rem;
+}
+.content .first-column ul li{
+    margin-right: 10px;
+  
+}
+.content .first-column ul li i{
+    color: darkgoldenrod;
+}
+.interior{
+    width: 330px;
+    display: grid;
+    
+}
+
+.description{
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #eceff2;
+}
+
+form p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+form p a {
+    color: black;
+    text-decoration: none;
+}
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #51a59c;
+    cursor: pointer;
+}
+
+.description a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*FIM DA PRIMERA COLUNA*/
+
+.second-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%; 
+    background-color:#51a59c ;
+    border-radius: 15px
+    
+}
+
+.second-column h1{
+    margin-bottom: 15px ;
+    z-index: 2;
+}
+
+.second-column p{
+    margin-bottom: 5px;
+}
+  
+.second-column button{
+    padding: 10px;
+    margin: 15px auto;
+    background-color:#51a59c ;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 200px;
+    justify-self: center;
+    cursor: pointer;
+
+}
